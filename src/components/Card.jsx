@@ -16,7 +16,7 @@ export default function Card({
       <p>By: {city}</p>
       <p>Mail: {email}</p>
       <p>Hobbyer:</p>
-      {hobbies.map((h) => (
+      {hobbies?.map((h) => (
         <p>{h}</p>
       ))}
     </div>
